@@ -1,6 +1,6 @@
-let temFome = prompt('Você está com fome? Sim ou não')
-let temDinheiro = prompt('Você tem dinheiro? Sim ou não')
-let restauranteAberto = prompt('O restaurante está aberto? Sim ou não')
+const temFome = prompt('Você está com fome? Sim ou não')
+const temDinheiro = prompt('Você tem dinheiro? Sim ou não')
+const restauranteAberto = prompt('O restaurante está aberto? Sim ou não')
 
 if(temFome === 'Não' || temDinheiro === 'Não'){
     console.log('Hoje a janta será em casa');
