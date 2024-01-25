@@ -34,6 +34,7 @@ for(anoNasc; anoNasc <= anoAt; idade++){
     console.log((anoNasc++) + ' - ' + contador++ + ' anos de idade')
 }
 
+let continuar
 do{
-    let continuar = prompt('Deseja continuar? S / N')
+    continuar = prompt('Deseja continuar? S / N')
 }while(continuar == 'S')
